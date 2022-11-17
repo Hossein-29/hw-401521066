@@ -11,5 +11,10 @@ int main(){
             printf(" ");
             cnt--;
         }
+        cnt = star;
+        while(cnt > 0){
+            printf("*");
+            cnt--;
+        }
     }    
 }
