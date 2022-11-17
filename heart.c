@@ -42,6 +42,10 @@ int main(){
     int i = 0;
     while(i < n){
         int cnt = i;
+        while(cnt > 0){
+            printf(" ");
+            cnt--;
+        }
         i++;
         printf("\n");
     }         
