@@ -24,5 +24,17 @@ int main(){
         if(n % 4 == 1 || n % 4 == 2){
             printf("  ");
         }
+        cnt = star;
+        while(cnt > 0){
+            printf("*");
+            cnt--;
+        }
+        cnt = space;
+        while(cnt > 0){
+            printf(" ");
+            cnt--;
+        }
+        printf("\n");
+        star += 2;
     }    
 }
