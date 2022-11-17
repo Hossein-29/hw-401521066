@@ -16,5 +16,13 @@ int main(){
             printf("*");
             cnt--;
         }
+        cnt = 2*space;
+        while(cnt > 0){
+            printf(" ");
+            cnt--;
+        }
+        if(n % 4 == 1 || n % 4 == 2){
+            printf("  ");
+        }
     }    
 }
