@@ -51,6 +51,11 @@ int main(){
             printf("*");
             cnt--;
         }
+        cnt = i;
+        while(cnt > 0){
+            printf(" ");
+            cnt--;
+        }
         i++;
         printf("\n");
     }         
