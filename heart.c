@@ -46,6 +46,11 @@ int main(){
             printf(" ");
             cnt--;
         }
+        cnt = 2*n-(2*i+1);
+        while(cnt > 0){
+            printf("*");
+            cnt--;
+        }
         i++;
         printf("\n");
     }         
