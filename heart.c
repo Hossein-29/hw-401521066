@@ -4,6 +4,7 @@ int main(){
     int n;
     scanf("%d", &n);
     int star = n/2, space;
+    // top part 
     while(star <= n){
         space = (n-star)/2;
         int cnt = space;
@@ -36,5 +37,12 @@ int main(){
         }
         printf("\n");
         star += 2;
-    }    
+    } 
+    // bottom part 
+    int i = 0;
+    while(i < n){
+        int cnt = i;
+        i++;
+        printf("\n");
+    }         
 }
